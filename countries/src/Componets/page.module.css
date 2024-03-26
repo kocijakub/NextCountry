@@ -4,6 +4,9 @@
     background-color: white;
     border: #e0e1e3 1px solid;
     border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 
 }
 .card *{

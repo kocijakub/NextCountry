@@ -8,10 +8,11 @@ export default function Card({name, flag, population, region}){
                 <h2>{name.toString()}</h2>
                 <img className={styles.flag} src={flag} alt=""/>
             </div>
-
-            <p>Region: {region}</p>
-            <p>Population: {population}</p>
-            <Link href={"/"+name.replaceAll(" ","_")}>Click here</Link>
+            <div>
+                <p>Region: {region}</p>
+                <p>Population: {population}</p>
+                <Link href={"/"+name.replaceAll(" ","_")}>Click here</Link>
+            </div>
         </div>
     )
 }
