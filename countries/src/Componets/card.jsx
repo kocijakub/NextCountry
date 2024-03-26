@@ -12,6 +12,7 @@ export default function Card({name, flag, population, region}){
                 <p>Region: {region}</p>
                 <p>Population: {population}</p>
                 <Link href={"/"+name.replaceAll(" ","_")}>Click here</Link>
+
             </div>
         </div>
     )
